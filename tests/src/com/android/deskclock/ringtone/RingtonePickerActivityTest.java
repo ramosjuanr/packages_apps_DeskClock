@@ -75,6 +75,11 @@ public class RingtonePickerActivityTest {
         createTimerRingtonePickerActivity();
 
         final List<ItemHolder<Uri>> systemRingtoneHolders = ringtoneAdapter.getItems();
+<<<<<<< HEAD
+=======
+
+        assertEquals(28, systemRingtoneHolders.size());
+>>>>>>> 2bde468b2 (DeskClock: Squashed AOSP changes before java app was removed.)
         final Iterator<ItemHolder<Uri>> itemsIter = systemRingtoneHolders.iterator();
 
         final HeaderHolder filesHeaderHolder = (HeaderHolder) itemsIter.next();
@@ -113,6 +118,11 @@ public class RingtonePickerActivityTest {
         createAlarmRingtonePickerActivity(ALERT);
 
         final List<ItemHolder<Uri>> systemRingtoneHolders = ringtoneAdapter.getItems();
+<<<<<<< HEAD
+=======
+
+        assertEquals(28, systemRingtoneHolders.size());
+>>>>>>> 2bde468b2 (DeskClock: Squashed AOSP changes before java app was removed.)
         final Iterator<ItemHolder<Uri>> itemsIter = systemRingtoneHolders.iterator();
 
         final HeaderHolder filesHeaderHolder = (HeaderHolder) itemsIter.next();
@@ -151,6 +161,11 @@ public class RingtonePickerActivityTest {
         createTimerRingtonePickerActivity();
 
         final List<ItemHolder<Uri>> systemRingtoneHolders = ringtoneAdapter.getItems();
+<<<<<<< HEAD
+=======
+
+        assertEquals(29, systemRingtoneHolders.size());
+>>>>>>> 2bde468b2 (DeskClock: Squashed AOSP changes before java app was removed.)
         final Iterator<ItemHolder<Uri>> itemsIter = systemRingtoneHolders.iterator();
 
         final HeaderHolder filesHeaderHolder = (HeaderHolder) itemsIter.next();
@@ -204,6 +219,11 @@ public class RingtonePickerActivityTest {
         createAlarmRingtonePickerActivity(ALERT);
 
         final List<ItemHolder<Uri>> systemRingtoneHolders = ringtoneAdapter.getItems();
+<<<<<<< HEAD
+=======
+
+        assertEquals(29, systemRingtoneHolders.size());
+>>>>>>> 2bde468b2 (DeskClock: Squashed AOSP changes before java app was removed.)
         final Iterator<ItemHolder<Uri>> itemsIter = systemRingtoneHolders.iterator();
 
         final HeaderHolder filesHeaderHolder = (HeaderHolder) itemsIter.next();

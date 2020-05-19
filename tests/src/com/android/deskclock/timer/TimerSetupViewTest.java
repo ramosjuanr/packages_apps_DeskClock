@@ -75,8 +75,12 @@ public class TimerSetupViewTest {
         Locale.setDefault(new Locale("en", "US"));
         Context context = InstrumentationRegistry.getInstrumentation().getTargetContext();
         final TimerFragment fragment = new TimerFragment();
+<<<<<<< HEAD
         rule.getActivity().getSupportFragmentManager()
                 .beginTransaction().add(fragment, null).commit();
+=======
+        rule.getActivity().getFragmentManager().beginTransaction().add(fragment, null).commit();
+>>>>>>> 2bde468b2 (DeskClock: Squashed AOSP changes before java app was removed.)
         Runnable selectTabRunnable = () -> {
             fragment.selectTab();
             fabContainer = new MockFabContainer(fragment, context);

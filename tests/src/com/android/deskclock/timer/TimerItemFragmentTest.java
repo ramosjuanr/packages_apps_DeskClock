@@ -50,7 +50,11 @@ public class TimerItemFragmentTest {
     public void ensureTimerIsHeldSuccessfully_whenOneTimerIsRunning() {
         Context context = InstrumentationRegistry.getInstrumentation().getTargetContext();
         final TimerFragment timerFragment = new TimerFragment();
+<<<<<<< HEAD
         rule.getActivity().getSupportFragmentManager()
+=======
+        rule.getActivity().getFragmentManager()
+>>>>>>> 2bde468b2 (DeskClock: Squashed AOSP changes before java app was removed.)
                 .beginTransaction().add(timerFragment, null).commit();
         Runnable selectTabRunnable = () -> {
             timerFragment.selectTab();

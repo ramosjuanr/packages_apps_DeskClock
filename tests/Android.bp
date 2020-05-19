@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package {
     // http://go/android-license-faq
     // A large-scale-change added 'default_applicable_licenses' to import
@@ -6,6 +7,8 @@ package {
     default_applicable_licenses: ["packages_apps_DeskClock_license"],
 }
 
+=======
+>>>>>>> 2bde468b2 (DeskClock: Squashed AOSP changes before java app was removed.)
 android_test {
     name: "DeskClockTests",
     libs: [
